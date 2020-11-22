@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Gill Sans Nova Light";
+  src: url("//db.onlinewebfonts.com/t/6c8fcef9d431610bf68654abd3e698bd.eot");
+  src: url("//db.onlinewebfonts.com/t/6c8fcef9d431610bf68654abd3e698bd.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/6c8fcef9d431610bf68654abd3e698bd.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/6c8fcef9d431610bf68654abd3e698bd.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/6c8fcef9d431610bf68654abd3e698bd.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/6c8fcef9d431610bf68654abd3e698bd.svg#Gill Sans Nova Light")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Baskerville BT Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Baskerville BT Italic"),
+    url("/public/BaskervilleItalicBT.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Baskerville";
+  src: url("./public/BaskervilleItalic.ttf") format("truetype");
+}
+
+.header {
+  width: 100vw;
+}
+
+img {
+  width: 90%;
+}
+
+.heading {
+  text-align: center;
+  font-size: 32px;
+  font-family: "Gill Sans Nova Light";
+  text-transform: uppercase;
+  letter-spacing: 1;
+}
+
+body {
+  width: 90%;
+  margin: auto;
+}
+
+.body {
+  font-family: "Baskerville BT Italic";
+  font-size: 25px;
+  line-height: 1.8;
+  letter-spacing: 0.25;
+}
+
+.logo {
+  width: 25%;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
