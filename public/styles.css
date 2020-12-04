@@ -26,36 +26,46 @@
   src: url("./public/BaskervilleItalic.ttf") format("truetype");
 }
 
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
 .header {
-  width: 100vw;
+  width: 90vw;
+  margin: auto;
 }
 
-img {
-  width: 90%;
+.hero-image {
+  width: 100%;
+  display: block;
+  height: auto;
 }
-
 .heading {
   text-align: center;
-  font-size: 32px;
   font-family: "Gill Sans Nova Light";
+
   text-transform: uppercase;
   letter-spacing: 1;
 }
 
-body {
-  width: 90%;
-  margin: auto;
+.heading-text {
+  font-size: 1.7777em;
 }
-
 .body {
   font-family: "Baskerville BT Italic";
-  font-size: 25px;
+  font-size: 15px;
   line-height: 1.8;
   letter-spacing: 0.25;
 }
 
+.logo-container {
+  width: 90vw;
+  margin: auto;
+}
+
 .logo {
-  width: 25%;
+  max-height: 50px;
   margin-top: 32px;
   margin-bottom: 32px;
 }
